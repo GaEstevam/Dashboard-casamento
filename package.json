@@ -1,0 +1,44 @@
+{
+  "name": "nosso-sim-dashboard",
+  "description": "Dashboard local e responsivo para planejamento de casamento a partir de uma planilha do Google Sheets.",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "casamento",
+    "dashboard",
+    "google-sheets",
+    "react",
+    "pwa"
+  ],
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --pretty false",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "check": "npm run format:check && npm run typecheck && npm run test:run && npm run build",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "lucide-react": "^1.52.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "read-excel-file": "^9.3.10"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "prettier": "^3.9.9",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.3",
+    "vitest": "^5.0.3"
+  }
+}

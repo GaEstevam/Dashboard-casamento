@@ -1,0 +1,11 @@
+{
+  "name": "Nosso Sim — Dashboard de casamento",
+  "short_name": "Nosso Sim",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f3ed",
+  "theme_color": "#6e7350",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
